@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Montserrat;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2 {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+label {
+  font-size: 18px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 1rem 3rem;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: transparent;
+  outline: 1px solid white;
+  transition: all .3s ease-in-out;
+}
+
+.link:hover {
+  background-color: rgb(17, 216, 223);
+  color: black;
+  outline: none;
+}
+
+.link-blue {
+  outline: none;
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+  transition: color .3s ease;
+  margin-top: 20px;
+}
+
+.link-blue:hover {
+  color: wheat;
+}
+
+input[type="number"] {
+  width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  font-size: 1rem !important;
+  transform: translateX(-10px);
+}
