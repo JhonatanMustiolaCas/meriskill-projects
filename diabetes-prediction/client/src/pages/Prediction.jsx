@@ -28,7 +28,7 @@ function Prediction() {
 
     return (
         <>
-            {actionData && Object.keys(actionData.result) ? (
+            {actionData && Object.keys(actionData.result).length > 0 ? (
                 <ResultDisplay
                     result={actionData.result.data.result}
                     accuracy={actionData.result.data.accuracy}

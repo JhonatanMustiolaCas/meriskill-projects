@@ -73,7 +73,7 @@ function ResultDisplay({ result, accuracy }) {
                 </ProgressbarContainer>
                 <ResultContainer>
                     <span>
-                        {result === "1" ? "Positive" : "Negative"}
+                        {result == "1" ? "Positive" : "Negative"}
                     </span>
                     <Link
                         className="link-blue"
